@@ -1,0 +1,17 @@
+Time of Activity: 00:22 AM — 30.07.2025
+
+List of Affected Entities: None
+Reason for Classifying as True Positive: This activity was classified as an outbound True Positive due to the detection of an outbound connection attempt from internal host IP: 10.20.2.17 on Port: 90 (HTTP), which attempted to access a blocklisted external URL: hxxps[://]bit[.]ly/3sHkX3da12340. The connection was successfully blocked by the organization's firewall. The URL is a shortlink that redirects to a malicious IP address 67[.]199[.]248[.]11. This URL was checked on VirusTotal and URLScan, and the destination was confirmed to be associated with phishing and potential C2 infrastructure.
+
+Reason for Escalating the Alert: Although the connection attempt was successfully blocked by the firewall, escalation is warranted to investigate the origin of the outbound request from internal host 10.20.2.17, determine whether the attempt was user-initiated via a phishing link click, an attempt to bypass network restrictions, or the initial stages of data exfiltration or C2 beaconing, and prevent any future attempts. It may also represent a violation of the organization's Acceptable Use Policy (AUP).
+
+Recommended Remediation Actions: The URL was already blocked by perimeter defense preventing a successful connection, check why it has been initiated by the user and perform a full endpoint scan on host 10.20.2.17 to rule out any compromise.
+
+List of Attack Indicators (IoCs):
+Internal Source IP: 10.20.2.17
+Source Port: 90
+Malicious URL: hxxps[://]bit[.]ly/3sHkX3da12340
+Redirected Malicious IP: 67[.]199[.]248[.]11
+Protocol: HTTP (Outbound)
+Threat Classification: Phishing / Potential C2 Infrastructure
+Data Source: Firewall
