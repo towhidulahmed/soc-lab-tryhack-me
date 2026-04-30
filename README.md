@@ -1,15 +1,16 @@
 # SOC Lab - Security Incident Investigations
 
-I have investigated several security alerts in the SOC environment. Each investigation is documented with the tools used, findings, and actions taken.
+This repository contains SOC incident analysis and investigation notes, including findings, screenshots, and final reports.
 
-## Investigations
+## SOC Analysis Directories
 
-Browse the incident folders to see detailed investigations:
+- [Incident-1](./Incident-1/) - Full investigation for a malicious URL access attempt
+- [Incident-1/analysis](./Incident-1/analysis/) - Analysis artifacts for Incident-1
+- [Incident-1/screenshots](./Incident-1/screenshots/) - Evidence screenshots used in the report
 
-- [Incident-1](./Incident-1/) - Malicious URL access attempt
-- More investigations coming soon
+## Dashboard
 
-Each investigation includes screenshots, analysis, and detailed explanations of what happened and how it was resolved.
+![SOC Dashboard](./assets/images/dashboard.png)
 
 ---
 
