@@ -15,7 +15,7 @@ At 01:46:22 UTC, an internal host attempted to open a URL that was already on th
 |-------|-------|
 | Internal IP | 10.20.2.17 |
 | Destination IP | 67.199.248.11 |
-| URL | http://bit.ly/3sHKX3da12340 |
+| URL | hxxps[://]bit[.]ly/3sHkX3da12340 |
 | Destination Port | 80 (HTTP) |
 | Source Port | 34257 |
 | Protocol | TCP |
