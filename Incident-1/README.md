@@ -35,9 +35,25 @@ At 01:46:22 UTC, an internal host attempted to open a URL that was already on th
 
 ## Evidence
 
-![Alert Details](./screenshots/alart.png)
-![VirusTotal Scan](./screenshots/virus-total.png)
-![Splunk Search Results](./screenshots/splunk.png)
+### SOC Dashboard Overview
+<p align="center">
+  <img src="./screenshots/dashboard.png" alt="SOC Dashboard" width="800"/>
+</p>
+
+### Alert Details
+<p align="center">
+  <img src="./screenshots/alart.png" alt="Alert Details" width="800"/>
+</p>
+
+### VirusTotal Scan
+<p align="center">
+  <img src="./screenshots/virus-total.png" alt="VirusTotal Scan" width="800"/>
+</p>
+
+### Splunk Search Results
+<p align="center">
+  <img src="./screenshots/splunk.png" alt="Splunk Search Results" width="800"/>
+</p>
 
 ## Action Taken
 
